@@ -39,9 +39,9 @@ sucursal y retorne los porcentajes de instrumentos por tipo que hay para tal suc
       
         Entidad_fabrica ef = new Entidad_fabrica();
         Entidad_sucursal su = new Entidad_sucursal("Sucursal A");
-        su.guardarInstrumentos(new Entidad_instrumento("A24",35000,Entidad_tipoDeInstrumento.cuerda) );
-        su.guardarInstrumentos(new Entidad_instrumento("B54",39000,Entidad_tipoDeInstrumento.percusion) );
-        su.guardarInstrumentos(new Entidad_instrumento("G84",37000,Entidad_tipoDeInstrumento.viento) );
+        su.guardarInstrumentos(new Entidad_instrumento("A24",350000,Entidad_tipoDeInstrumento.cuerda) );
+        su.guardarInstrumentos(new Entidad_instrumento("B54",390000,Entidad_tipoDeInstrumento.percusion) );
+        su.guardarInstrumentos(new Entidad_instrumento("G84",370000,Entidad_tipoDeInstrumento.viento) );
         ef.guardarSucursales(su);
         su.listarInstrumentos(); 
         

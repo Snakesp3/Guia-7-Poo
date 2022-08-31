@@ -5,10 +5,10 @@ package Entidad;
 public class Entidad_instrumento {
 
     private String id;
-    private double precio;
+    private float precio;
     private Entidad_tipoDeInstrumento tipo;
 
-    public Entidad_instrumento(String id, double precio, Entidad_tipoDeInstrumento tipo) {
+    public Entidad_instrumento(String id, float precio, Entidad_tipoDeInstrumento tipo) {
         this.id = id;
         this.precio = precio;
         this.tipo = tipo;
