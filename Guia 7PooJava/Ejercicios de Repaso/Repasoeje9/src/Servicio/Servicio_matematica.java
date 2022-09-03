@@ -28,13 +28,13 @@ public class Servicio_matematica {
         
         if (num.getNum1()>=80) {
            num.setNum2(Math.random());
-        }else if (num.) {
-            
         }
             
         }
-
-    }
+            
+        }
 
     
-}
+
+    
+
