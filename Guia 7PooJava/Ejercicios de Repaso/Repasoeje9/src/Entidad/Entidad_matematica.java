@@ -15,8 +15,33 @@ Antes de calcular la raíz cuadrada se debe obtener el valor absoluto del númer
 public class Entidad_matematica {
     //Atributos
     
-    public int num1;
-    public int num2;
+    public double num1;
+    public double num2;
+
+    public Entidad_matematica() {
+    }
+
+    public Entidad_matematica(double num1, double num2) {
+        this.num1 = num1;
+        this.num2 = num2;
+    }
+
+    public double getNum1() {
+        return num1;
+    }
+
+    public void setNum1(double num1) {
+        this.num1 = num1;
+    }
+
+    public double getNum2() {
+        return num2;
+    }
+
+    public void setNum2(double num2) {
+        this.num2 = num2;
+    }
+    
     
     
     

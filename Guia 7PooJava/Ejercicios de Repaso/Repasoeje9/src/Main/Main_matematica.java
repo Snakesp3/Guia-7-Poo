@@ -1,6 +1,10 @@
 
 package Main;
 
+import Entidad.Entidad_matematica;
+import Servicio.Servicio_matematica;
+import java.util.Scanner;
+
 /*Realizar una clase llamada Matemática que tenga como atributos dos números reales con
 los cuales se realizarán diferentes operaciones matemáticas. La clase deber tener un
 constructor vacío, parametrizado y get y set. En el main se creará el objeto y se usará el
@@ -16,7 +20,11 @@ public class Main_matematica {
 
     
     public static void main(String[] args) {
-       
+        Scanner leer = new Scanner(System.in);
+        Servicio_matematica c1 = new Servicio_matematica();
+        Entidad_matematica c2 = new Entidad_matematica();
+        
+        c1.devolverMayor();
         
         
         
