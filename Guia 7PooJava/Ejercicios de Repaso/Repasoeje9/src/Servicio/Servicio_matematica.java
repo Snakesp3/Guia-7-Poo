@@ -1,4 +1,3 @@
-
 package Servicio;
 
 import Entidad.Entidad_matematica;
@@ -20,25 +19,33 @@ public class Servicio_matematica {
     Scanner leer = new Scanner(System.in);
     Entidad_matematica num = new Entidad_matematica();
 
+    //Generador de numeros aleatoreos
+    public void numerosAleatoreos() {
+        double num1 = 0;
+        num1 = Math.random() * 100;
+        double num2 = 10;
+        num2 = Math.random() * 100;
+
+        System.out.println("Primer valor aleatoreo generado:");
+        num.setNum1(num1);
+        System.out.println("El Primer valor es: " + num1);
+        System.out.println("---------------------------------------");
+
+        System.out.println("Segundo valor aleatoreo generado:");
+        num.setNum1(num2);
+        System.out.println("El Segundo valor es: " + num2);
+        System.out.println("---------------------------------------");
+        
+    }
     //Método devolverMayor() para retornar cuál de los dos atributos tiene el mayor valor
-   
     public void devolverMayor() {
 
-        double num1=0;
-        double num2=0;
-        
-        
-        num1= Math.random()*100;
-        num2 = Math.random() *100;
-       
-        System.out.println("Primer valor: " + num1);
-        System.out.println("--------------------------------------------------");
-        System.out.println("Segundo valor: " + num2);
-        System.out.println("--------------------------------------------------");
-        
-        double mayor = Math.max(num1, num2);
-        double menor = Math.min(num1, num2);
-        
+        double num1 = 0;
+        double num2 = 0;
+
+        double mayor = Math.max(num.getNum1(),num.getNum2());
+        double menor = Math.min(num.getNum1(),num.getNum2());
+
         System.out.println("El Mayor de los dos numero: " + mayor);
         System.out.println("--------------------------------------------------");
         System.out.println("El Menor de los dos numero: " + menor);
@@ -47,15 +54,18 @@ public class Servicio_matematica {
     }
 
     /*Método calcularPotencia() para calcular la potencia del mayor valor de la clase elevado
-    al menor número. Previamente se deben redondear ambos valores.*/
+   al menor número. Previamente se deben redondear ambos valores.*/
+
+
+
+
+
+
+}
+
+
+
     
-//    public void calcularPotencia(){
-//        double potencia;
-//        
-//        potencia = Math.pow(,menor);
-        
-        
-    }
     
     
 

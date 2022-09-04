@@ -28,9 +28,10 @@ public class Main_matematica {
         Math.random para generar los dos números y se guardaran en el objeto con su
         respectivos set.*/
        
+        c1.numerosAleatoreos();
         c1.devolverMayor();
         
-        
+//        c1.calcularPotencia();
         
         
     }
