@@ -23,12 +23,12 @@ public class Servicio_matematica {
     //Método devolverMayor() para retornar cuál de los dos atributos tiene el mayor valor
    
     public void devolverMayor() {
-        System.out.println("Primer valor");
-        num.setNum1(Math.random());
+        double num1=100;
+        double num2=100;
         
-        if (num.getNum1()>=80) {
-           num.setNum2(Math.random());
-        }
+        Math.random(num1);
+            System.out.println("Los valores son:"+num1 + num2);
+        
             
         }
             
