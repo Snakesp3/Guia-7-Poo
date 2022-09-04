@@ -23,16 +23,42 @@ public class Servicio_matematica {
     //Método devolverMayor() para retornar cuál de los dos atributos tiene el mayor valor
    
     public void devolverMayor() {
-        double num1=100;
-        double num2=100;
+
+        double num1=0;
+        double num2=0;
         
-        Math.random(num1);
-            System.out.println("Los valores son:"+num1 + num2);
         
-            
-        }
-            
-        }
+        num1= Math.random()*100;
+        num2 = Math.random() *100;
+       
+        System.out.println("Primer valor: " + num1);
+        System.out.println("--------------------------------------------------");
+        System.out.println("Segundo valor: " + num2);
+        System.out.println("--------------------------------------------------");
+        
+        double mayor = Math.max(num1, num2);
+        double menor = Math.min(num1, num2);
+        
+        System.out.println("El Mayor de los dos numero: " + mayor);
+        System.out.println("--------------------------------------------------");
+        System.out.println("El Menor de los dos numero: " + menor);
+        System.out.println("--------------------------------------------------");
+
+    }
+
+    /*Método calcularPotencia() para calcular la potencia del mayor valor de la clase elevado
+    al menor número. Previamente se deben redondear ambos valores.*/
+    
+//    public void calcularPotencia(){
+//        double potencia;
+//        
+//        potencia = Math.pow(,menor);
+        
+        
+    }
+    
+    
+
 
     
 

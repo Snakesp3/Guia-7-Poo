@@ -17,6 +17,7 @@ public class Entidad_matematica {
     
     public double num1;
     public double num2;
+   
 
     public Entidad_matematica() {
     }

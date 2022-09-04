@@ -24,7 +24,13 @@ public class Main_matematica {
         Servicio_matematica c1 = new Servicio_matematica();
         Entidad_matematica c2 = new Entidad_matematica();
         
+        /* En el main se creará el objeto y se usará el
+        Math.random para generar los dos números y se guardaran en el objeto con su
+        respectivos set.*/
+       
         c1.devolverMayor();
+        
+        
         
         
     }
