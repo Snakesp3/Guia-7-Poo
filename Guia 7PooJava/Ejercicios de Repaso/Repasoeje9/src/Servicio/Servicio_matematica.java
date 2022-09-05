@@ -21,30 +21,28 @@ public class Servicio_matematica {
 
     //Generador de numeros aleatoreos
     public void numerosAleatoreos() {
-        double num1 = 0;
-        num1 = Math.random() * 100;
-        double num2 = 10;
-        num2 = Math.random() * 100;
-
+        
+        double ale1=Math.random() * 100;
+        double ale2 = Math.random() * 100;
+         
         System.out.println("Primer valor aleatoreo generado:");
-        num.setNum1(num1);
-        System.out.println("El Primer valor es: " + num1);
+        num.setNum1(num.getNum1());
+        System.out.println("El Primer valor es: " + ale1);
         System.out.println("---------------------------------------");
 
         System.out.println("Segundo valor aleatoreo generado:");
-        num.setNum1(num2);
-        System.out.println("El Segundo valor es: " + num2);
+        num.setNum1(num.getNum2());
+        System.out.println("El Segundo valor es: " + ale2);
         System.out.println("---------------------------------------");
         
     }
     //Método devolverMayor() para retornar cuál de los dos atributos tiene el mayor valor
     public void devolverMayor() {
+        double mayor;
+        double menor;
 
-        double num1 = 0;
-        double num2 = 0;
-
-        double mayor = Math.max(num.getNum1(),num.getNum2());
-        double menor = Math.min(num.getNum1(),num.getNum2());
+        mayor = Math.max(num.getNum1(),num.getNum2()) ;
+        menor = Math.min(num.getNum2(),num.getNum1());
 
         System.out.println("El Mayor de los dos numero: " + mayor);
         System.out.println("--------------------------------------------------");
